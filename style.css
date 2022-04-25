@@ -1,0 +1,45 @@
+body{
+    width: 960px;
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    background-color: rgba(251, 235, 215, 0.865);
+    color: rgb(93, 11, 11);
+}
+.title{
+    font-weight: bold;
+    font-size: 18px;
+color: rgb(245, 53, 53);
+}
+img{
+    border: 1px solid rgb(93, 11, 11);
+    border-radius: 5px 5px 5px 5px;
+    padding: 5px;
+}
+
+
+.tables{
+    text-align: left;
+    border: 2px solid rgb(93, 11, 11);
+    border-radius: 5px 5px 5px 5px;
+
+}
+.inputtable{
+    text-align: left;
+    border: 2px solid rgb(93, 11, 11);
+    border-radius: 5px 5px 5px 5px;
+}
+
+#content{
+    overflow: auto;
+    margin: 0 auto;
+}
+#header, #footer, #nav{
+    padding: 10px;
+    margin: 10px;
+}
+#content, #hobby, .column3{
+    width: 300px;
+    float: left;
+    margin: 10px;
+}
